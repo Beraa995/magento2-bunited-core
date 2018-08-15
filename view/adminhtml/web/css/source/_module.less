@@ -1,0 +1,22 @@
+/**
+ * @category  Bunited
+ * @package   Bunited\Core
+ * @author    Berin Kozlic - beringgmu@gmail.com
+ * @copyright 2018 Berin Kozlic
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+@core-icons-admin__font-name-path: '@{baseDir}Bunited_Core/fonts/core';
+@core-icons-admin__font-name : 'Core';
+
+.lib-font-face(
+    @family-name:@core-icons-admin__font-name,
+    @font-path: @core-icons-admin__font-name-path,
+    @font-weight: normal,
+    @font-style: normal
+);
+
+.admin__menu .item-bunited.parent.level-0 > a:before {
+    font-family: @core-icons-admin__font-name;
+    content: "\0041";
+}

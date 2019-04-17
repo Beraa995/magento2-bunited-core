@@ -3,7 +3,6 @@
   "description": "Bunited Core for Magento 2",
   "type": "magento2-module",
   "version": "1.0.0",
-  "minimum-stability": "dev",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
